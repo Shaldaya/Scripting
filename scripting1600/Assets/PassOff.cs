@@ -3,14 +3,18 @@ using System.Collections;
 
 public class PassOff : MonoBehaviour
 {
-	int firstInt = 7;
-	// Use this for initialization
+
+	int Int1 = 676;
 	void Start ()
 	{
-		Debug.Log (firstInt - 2);
+		Int1 = SubtractTen (Int1);
+		Debug.Log (Int1);
 	}
-	
-	// Update is called once per frame
+		int SubtractTen(int Number){
+		int ret;
+		ret = Number - 10;
+			return ret;
+	}
 	void Update ()
 	{
 	
