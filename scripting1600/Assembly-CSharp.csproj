@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\IfStatements.cs" />
      <Compile Include="Assets\VariablesAndFunctions.cs" />
+     <Compile Include="Assets\gitBranchTest.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
